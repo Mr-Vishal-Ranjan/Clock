@@ -4,7 +4,7 @@
 }
 
 .hour{
-    color: rgb(208,208,208);
+    color: aliceblue;
     border-radius: 30px;
     background-color: rgb(32,32,32);
     font-size: 80px;
@@ -17,7 +17,7 @@
 }
 
 .min{
-    color: rgb(208,208,208);
+    color: aliceblue;
     border-radius: 30px;
     background-color: rgb(32,32,32);
     font-size: 80px;
