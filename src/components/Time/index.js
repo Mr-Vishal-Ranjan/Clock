@@ -1,5 +1,5 @@
 import React from 'react'
-import './Time.css';
+import './index.css';
 import { useState , useEffect} from 'react';
 
 const Time = () => {
