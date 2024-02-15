@@ -4,6 +4,7 @@
 }
 
 .hour{
+    height: auto;
     color: rgb(208,208,208);
     border-radius: 30px;
     background-color: rgb(32,32,32);
@@ -17,6 +18,7 @@
 }
 
 .min{
+    height: auto;
     color: rgb(208,208,208);
     border-radius: 30px;
     background-color: rgb(32,32,32);

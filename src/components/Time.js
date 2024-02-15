@@ -5,8 +5,6 @@ import { useState , useEffect} from 'react';
 const Time = () => {
     const[hour,setHour]=useState(new Date().getHours());
     const[min,setMin]=useState(new Date().getMinutes());
-    const[sec,setSec]=useState(new Date().getMinutes());
-
 
     useEffect(
       ()=>{
@@ -15,10 +13,8 @@ const Time = () => {
             
           if(hour>12){
             setHour(new Date().getHours()-12);
-
           }
           setMin(new Date().getMinutes());
-          setSec(new Date().getSeconds());
         }, 1000);
       }
     );
