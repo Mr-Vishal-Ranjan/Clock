@@ -1,0 +1,30 @@
+.mainDiv{
+    position: relative;
+    margin: 0;
+}
+
+.hour{
+    color: rgb(208,208,208);
+    border-radius: 30px;
+    background-color: rgb(32,32,32);
+    font-size: 80px;
+    
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-110% ,50%);
+    font-size: 400px;
+}
+
+.min{
+    color: rgb(208,208,208);
+    border-radius: 30px;
+    background-color: rgb(32,32,32);
+    font-size: 80px;
+    
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(5% ,50%);
+    font-size: 400px;
+}
